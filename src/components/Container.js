@@ -1,12 +1,13 @@
 import React, { useState } from 'react'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavTabs from'./NavTabs';
-import Home from './pages/home/home.js';
-import About from './pages/about/about.js';
-import Contact from './pages/contact/contact.js';
-import Projects from './pages/projects/projects.js';
-import Resume from './pages/resume/resume.js'; 
-import Footer from './pages/footer/footer.js';
+import Home from './pages/home/home';
+import About from './pages/about/about';
+import Contact from './pages/contact/contact';
+import Projects from './pages/projects/projects';
+import Resume from './pages/resume/resume'; 
+import Footer from './pages/footer/footer';
+import './Container.css'; 
 // import Footer from './components/footer/footer.js';
 
 
@@ -38,6 +39,7 @@ export default function Container() {
 
             
             <NavTabs  />
+            <div className='main-content'>
 
             <Switch>
                 <Route path="/" component={Home} exact ></Route>
@@ -51,7 +53,7 @@ export default function Container() {
 
             </Switch>
 
-            
+            </div>
 
 
 

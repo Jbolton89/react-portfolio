@@ -1,12 +1,12 @@
 import React from'react'; 
 import { Container, Row, Col } from 'react-bootstrap';
 import homeImage from '../../../assets/images/blackforest.PNG'; 
+import image from '../../../assets/images/Capture.JPG'; 
 
 
 function About() { 
     return ( 
-        <body> 
-            <Container fluid className="" id="">
+            <Container fluid className="main-container" id="">
             
                     <Row> 
                         <Col md={6} style={{ 
@@ -19,6 +19,8 @@ function About() {
                                 fontFamily: 'karla' }} className="">
                                 About Me 
                             </h1>
+                            <img src={image} alt="ProfilePicture"  />
+                            
                         </Col>
                         <Col md={6} style={{ backgroundColor: 'gainsboro'}}> 
                         <div>
@@ -36,7 +38,6 @@ function About() {
            
                 
             </Container>
-        </body>
     )
 };
 

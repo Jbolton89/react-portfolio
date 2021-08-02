@@ -2,3 +2,12 @@
     color: darkslategray;
     font: 'redressed';
 }
+
+img { 
+    border: 5xp solid black; 
+    position: bottom, left; 
+}
+
+Container { 
+    height: 80vh;
+}

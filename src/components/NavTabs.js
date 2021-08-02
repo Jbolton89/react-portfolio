@@ -14,10 +14,7 @@ function NavTabs() {
     const location = useLocation();
 
     const routes = [
-        {
-            title: "Home",
-            url: '/'
-        },
+        
         {
             title: "About",
             url: '/about'
@@ -43,7 +40,7 @@ function NavTabs() {
         <Navbar style={{
             backgroundColor:'darkslategray',
             expand:'md', 
-            sticky:'top',
+            sticky:'top'
         }}
         >
             <Container>
