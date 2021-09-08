@@ -5,7 +5,6 @@ import homeImage from '../../../assets/images/blackforest.PNG';
 
 export default function Home() {
   return (
-   <body> 
             <Container fluid>
             
                     <Row>
@@ -36,6 +35,5 @@ export default function Home() {
            
                 
             </Container>
-        </body>
   );
 }

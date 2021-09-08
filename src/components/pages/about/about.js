@@ -6,12 +6,13 @@ import image from '../../../assets/images/Capture.JPG';
 
 function About() { 
     return ( 
-            <Container fluid className="main-container" id="">
+            <Container fluid id="">
             
                     <Row> 
                         <Col md={6} style={{ 
                             backgroundImage: `url(${homeImage})`, 
-                            color: 'darkslategray' 
+                            color: 'darkslategray', 
+                            height: 'auto'
                             }} 
                             alt="" className= 'leftCol'>
                             <h1 style={{ 
@@ -19,10 +20,13 @@ function About() {
                                 fontFamily: 'karla' }} className="">
                                 About Me 
                             </h1>
-                            <img src={image} alt="ProfilePicture"  />
+                            <figure className="figure">
+                            <img src={image} alt="ProfilePicture" className="figure-img img-fluid rounded"/>
+                                </figure>
+                            
                             
                         </Col>
-                        <Col md={6} style={{ backgroundColor: 'gainsboro'}}> 
+                        <Col md={6} style={{ backgroundColor: 'darkslategray', color: 'white'}}> 
                         <div>
 							<p> History of working in Pharmaceuticals and various other medical industries.
 								Skilled in all aspects of data manipulation, and Neuroscience. Recently, learning
