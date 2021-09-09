@@ -26,7 +26,12 @@
   * npm start
 
   ## Screenshots
-  ![screenshot1]()
+
+  Home Page 
+  ![screenshot1](./src/assets/images/readme1.PNG)
+
+  Recent Projects Page
+   ![screenshot2](./src/assets/images/readme2.PNG)
 
 
   ## Usage Guidelines
