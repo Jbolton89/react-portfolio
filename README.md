@@ -1,4 +1,6 @@
-# jason Bolton React Portfolio
+# jason Bolton React Portfolio 
+
+
 
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,7 +16,7 @@
   * [Questions](#questions)
 
   ## Project Description 
-  A React porftoloio containing all of my information
+  A React porftolio which I will be adding to shortly. Contains a home page, recent projects page, my CV, and other infromation. First project using React.
 
 
   ## Installation Instructions
@@ -24,12 +26,12 @@
   * npm start
 
   ## Screenshots
-  ![picture]()
+  ![screenshot1]()
 
 
   ## Usage Guidelines
   * To see deployed app:
-   (https://jbolton89.github.io/Portfolio-react)
+   https://github.com/Jbolton89/react-portfolio
 
   ## Credits
   * Jbolton89

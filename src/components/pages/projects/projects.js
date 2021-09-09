@@ -2,11 +2,12 @@ import React from 'react';
 import moduleTrainerImg from '../../../assets/images/module-trainer.PNG'; 
 import workoutTrackerImg from '../../../assets/images/workout-tracker.PNG';
 import covidImg from '../../../assets/images/covid.PNG';
+import OfflineImg from '../../../assets/images/offline-tracker.PNG';
 
 export default function Projects() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>Recent Projects</h1>
       <div class="container">
 <ul class="row portfolio list-unstyled mb-0 boxed-portfolio">
            
@@ -62,6 +63,23 @@ export default function Projects() {
                     <div className="card-body">
                         <a href="single-project6.html" className="card-title title-link fs-16 fw-bold">COVID tracker</a>
                         <p className="card-text mt-5 mb-0 fs-14">A web application that can make API calls globally to cehck what current COVID statistics are worldwide</p>
+                    </div>
+                </div>
+            </li>
+            <li className="col-md-6 col-lg-4 project" data-groups="[&quot;skill1&quot;]">
+                <div className="card mb-0">
+                    <div className="project m-0">
+                        <figure className="portfolio-item">
+                            <a href="single-project6.html" className="hovereffect">
+                                <img className="img-fluid" src={OfflineImg} alt=""/>
+                                <div className="overlay">
+                                </div>
+                            </a>
+                        </figure>
+                    </div>
+                    <div className="card-body">
+                        <a href="single-project6.html" className="card-title title-link fs-16 fw-bold">Offline Budget Tracker</a>
+                        <p className="card-text mt-5 mb-0 fs-14">Online/Offline application that will give you a seamless experience whilst stracking expenditure</p>
                     </div>
                 </div>
             </li>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
             <Container fluid>
             
-                    <Row>
+                    <Row className="vh-100">
                         <Col md={6} style={{ 
                             backgroundImage: `url(${homeImage})`, 
                             color: 'darkslategray' 
@@ -21,13 +21,7 @@ export default function Home() {
                         </Col>
                         <Col md={6} style={{ backgroundColor: 'gainsboro'}}> 
                         <div>
-							<p> History of working in Pharmaceuticals and various other medical industries.
-								Skilled in all aspects of data manipulation, and Neuroscience. Recently, learning
-							    how to become a developer to further the skillset in my industry. </p>
-							<p>On a personal note I am a pretty chilled out guy who enjoys football, music, 
-								and video games. I have also worked in hospitalilty for over 10 years, so I enjoy drink and music culture, as well as 
-								all things cocktails.
-							</p>
+							
                         </div>
                         </Col>
                     
